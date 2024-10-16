@@ -16,6 +16,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -51,6 +52,7 @@ fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk memb
         Text(text = "Ini adalah halaman Login", style = TextStyle(fontSize = 15.sp)) // Menampilkan Teks
         Image(painter = painterResource(id = R.drawable.resourceumy), contentDescription = "Gambar Logo UMY") // Menambahkan Gambar
         Text(text = "Nama", style = TextStyle(fontSize = 15.sp)) // Menampilkan Teks
+        Text(text = "Abra Yudhistira Rachmadi", style = TextStyle(fontSize = 15.sp, color = Color.Red)) // Menampilkan Teks
     }
 }
 
