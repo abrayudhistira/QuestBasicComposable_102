@@ -46,6 +46,7 @@ fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk memb
         modifier = Modifier.fillMaxSize() // Untuk Memenuhi seluruh layout
     ) {
         Text(text = "Login", style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold)) // Menampilkan Teks
+        Text(text = "Ini adalah halaman Login", style = TextStyle(fontSize = 15.sp)) // Menampilkan Teks
     }
 }
 
