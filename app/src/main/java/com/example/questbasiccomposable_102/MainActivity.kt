@@ -50,6 +50,7 @@ fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk memb
         Text(text = "Login", style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold)) // Menampilkan Teks
         Text(text = "Ini adalah halaman Login", style = TextStyle(fontSize = 15.sp)) // Menampilkan Teks
         Image(painter = painterResource(id = R.drawable.resourceumy), contentDescription = "Gambar Logo UMY") // Menambahkan Gambar
+        Text(text = "Nama", style = TextStyle(fontSize = 15.sp)) // Menampilkan Teks
     }
 }
 
