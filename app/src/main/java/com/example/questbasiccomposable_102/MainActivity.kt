@@ -40,6 +40,7 @@ fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk memb
     Column ( //Layout berupa Column
         horizontalAlignment = Alignment.CenterHorizontally, // Semua elemen dalam kolom diatur center atau di tengah secara horizontal
         verticalArrangement = Arrangement.Center, // Semua elemen dalam kolom diatur center atau di tengah secara vertikal
+        modifier = Modifier.fillMaxSize() // Untuk Memenuhi seluruh layout
     ) {
 
     }
