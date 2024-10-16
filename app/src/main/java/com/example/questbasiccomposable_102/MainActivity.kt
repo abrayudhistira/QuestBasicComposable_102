@@ -12,6 +12,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.questbasiccomposable_102.ui.theme.QuestBasicComposable_102Theme
@@ -35,10 +36,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk membuat tampilan
-    Column { //Layout berupa Column
+    Column ( //Layout berupa Column
+        horizontalAlignment = Alignment.CenterHorizontally // Semua elemen diatur dalam center atau di tengah
+    ) {
 
     }
-
 }
 
 @Preview(showBackground = true)
