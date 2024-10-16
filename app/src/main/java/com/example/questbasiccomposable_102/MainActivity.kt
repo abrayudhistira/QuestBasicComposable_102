@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -37,7 +38,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk membuat tampilan
     Column ( //Layout berupa Column
-        horizontalAlignment = Alignment.CenterHorizontally // Semua elemen diatur dalam center atau di tengah
+        horizontalAlignment = Alignment.CenterHorizontally, // Semua elemen dalam kolom diatur center atau di tengah secara horizontal
+        verticalArrangement = Arrangement.Center, // Semua elemen dalam kolom diatur center atau di tengah secara vertikal
     ) {
 
     }
