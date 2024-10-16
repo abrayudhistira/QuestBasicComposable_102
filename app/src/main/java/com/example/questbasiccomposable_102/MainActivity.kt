@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(), // Membuat Objek modifier dengan fungsi fillMaxsize
                     color = MaterialTheme.colorScheme.background // Menambahkan Tema
                 ) {
-
+                    BasicLayout() //Memanggil Class BasicLayout
                 }
             }
         }
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicLayout(modifier: Modifier = Modifier) {
+fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk membuat tampilan
 
 }
 
