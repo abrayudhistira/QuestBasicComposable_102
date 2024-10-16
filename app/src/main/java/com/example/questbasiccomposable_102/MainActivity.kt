@@ -53,6 +53,7 @@ fun BasicLayout(modifier: Modifier = Modifier) { //Class Basic Layout untuk memb
         Image(painter = painterResource(id = R.drawable.resourceumy), contentDescription = "Gambar Logo UMY") // Menambahkan Gambar
         Text(text = "Nama", style = TextStyle(fontSize = 15.sp)) // Menampilkan Teks
         Text(text = "Abra Yudhistira Rachmadi", style = TextStyle(fontSize = 15.sp, color = Color.Red)) // Menampilkan Teks
+        Text(text = "20220140102", style = TextStyle(fontSize = 50.sp)) // Menampilkan Teks
     }
 }
 
