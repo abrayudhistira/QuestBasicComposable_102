@@ -23,6 +23,7 @@ class MainActivity : ComponentActivity() {
             QuestBasicComposable_102Theme {
                 Surface(        //Membuat Widget Surface
                     modifier = Modifier.fillMaxSize(), // Membuat Objek modifier dengan fungsi fillMaxsize
+                    color = MaterialTheme.colorScheme.background // Menambahkan Tema
                 ) {
 
                 }
